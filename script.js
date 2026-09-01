@@ -1,9 +1,4 @@
-// ===============================
-// PORTFOLIO JAVASCRIPT
-// ===============================
 
-
-// Check that the website loaded
 document.addEventListener("DOMContentLoaded", function () {
 
     console.log("Portfolio loaded successfully!");
@@ -11,9 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-// ===============================
-// CONTACT FORM
-// ===============================
+
 
 const contactForm = document.getElementById("contact-form");
 
