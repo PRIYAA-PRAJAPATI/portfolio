@@ -124,26 +124,33 @@ header {
 .hero {
 
     min-height: 90vh;
-
     max-width: var(--max-width);
-
     margin: auto;
-
     padding: 100px 25px;
-
     display: flex;
-
-    justify-content: center;
-
+    justify-content: space-between;
     align-items: center;
+    gap: 50px;
+    text-align: left;
 
-    text-align: center;
 }
 
 
 .hero-content {
 
     max-width: 750px;
+}
+.hero-image {
+    flex-shrink: 0;
+}
+
+.hero-image img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid var(--primary);
+    box-shadow: 0 0 30px rgba(56, 189, 248, 0.25);
 }
 
 
@@ -178,14 +185,10 @@ header {
 
 
 .hero-text {
-
     color: var(--muted);
-
     font-size: 18px;
-
     max-width: 650px;
-
-    margin: auto;
+    margin: 0;
 }
 
 
@@ -754,6 +757,15 @@ footer a {
         gap: 15px;
 
     }
+    .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 220px;
+    height: 220px;
+}
 
 
     .nav-links {
